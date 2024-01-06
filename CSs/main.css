@@ -3,7 +3,6 @@
     --StrongCyan: hsl(171, 66%, 44%);
     --LightBlue: hsl(233, 100%, 69%);
     --DarkGrayishBlue: hsla(212, 10%, 33%, 0.712);
-    --GrayishBlue: hsl(201, 11%, 66%);
     --Section-padding:50px;
     }
     /* End variables */
@@ -131,9 +130,40 @@
         width: 600px;
 }
 /* End Sction 3 */ 
-    /* End body  */
+    
+    /* Start  Sction 4*/ 
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards .card{
+        margin: 40px;
+        text-align: center;
+    }
+    .cards .card p{
+    font-size: 18px;
+    color: var(--DarkGrayishBlue);
+    }
+    .images{
+        padding: var(--Section-padding);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .images  img{
+        width: 200px;
+        margin: 30px;
+    }
+    /* End Sction 4 */ 
 
+    /* Start  Sction 5 */ 
+    .section-5{
+        padding: var(--Section-padding);
+    }
+    /* End Sction 5 */ 
 
+/* End body  */
     /* Footer STayel */
     footer{
         background-color: #eee;
@@ -156,6 +186,9 @@
         text-align: center;
         
     }
+    .foot-icon i:hover{
+        color: var(--StrongCyan);
+}
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     /* End Footer  */
