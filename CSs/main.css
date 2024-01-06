@@ -170,6 +170,12 @@
         .images  img{
             width: 50%;
         }
+        .images{
+            flex-direction: column;
+        }
+        .images  img{
+            width: 50%;
+        }
     }
     /* End Sction 4 */ 
 
@@ -198,6 +204,7 @@
     }
     @media (max-width:971px) {
         footer{
+            height: fit-content;
             display: flex;
             justify-content: center;
             align-items: center;
