@@ -1,0 +1,144 @@
+/* Start variables */
+:root{
+    --StrongCyan: hsl(171, 66%, 44%);
+    --LightBlue: hsl(233, 100%, 69%);
+    --DarkGrayishBlue: hsla(212, 10%, 33%, 0.712);
+    --GrayishBlue: hsl(201, 11%, 66%);
+    --Section-padding:50px;
+    }
+    /* End variables */
+    /* Global ruls */
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .spichal-header{
+    text-align: center;
+    }
+    .spichal-header h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Bai Jamjuree', sans-serif; ;
+    }
+    .spichal-header p{
+        font-size: 18px;
+        color: var(--DarkGrayishBlue);
+    }
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+    }
+    /* Small screen */
+    @media (min-width:768px){
+        .container{
+            width: 750px;
+        }
+    }
+    
+    /* medium screen */
+    @media (min-width:992px){
+        .container{
+            width: 970px;
+        }
+    }
+    
+    /* large screen */
+    @media (min-width:1200px){
+        .container{
+            width: 1170px;
+        }
+    }
+    /* end rules */
+    /* body staye */
+    .headeer-icon{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../images/bg-header-desktop.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    /* section  1 */
+    .buttons{
+        text-align: center;
+    }
+    .buttons .but-1,.but-2
+    {
+        margin: 20px;
+        padding: 20px;
+        font-size: 18px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+}
+.but-1{
+    background-color: var(--StrongCyan);
+    
+}
+.but-2{
+    background-color: var(--LightBlue);
+}
+/* End Sction 1 */
+
+/* Start  Sction 2 */ 
+.section-2 {
+    padding: var(--Section-padding);
+}
+.img-text{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-text img{
+    width: 500px;
+}
+.text{
+    margin: 30px;
+}
+.text h4{
+    font-size: 30px;
+    font-weight: 300;
+    font-family:'Bai Jamjuree' ;
+    margin: 0;
+}
+.text p{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: var(--DarkGrayishBlue);
+}
+/* End Sction 2 */ 
+
+/* Start  Sction 3 */ 
+.section-3 img{
+        margin: 20px 500px;
+        width: 600px;
+}
+/* End Sction 3 */ 
+    /* End body  */
+
+
+    /* Footer STayel */
+    footer{
+        background-color: #6d6d6d;
+        height: 100px;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    /* End Footer  */
