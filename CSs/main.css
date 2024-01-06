@@ -100,7 +100,7 @@
 .img-text{
     margin: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .img-text img{
@@ -136,8 +136,25 @@
 
     /* Footer STayel */
     footer{
-        background-color: #6d6d6d;
-        height: 100px;
+        background-color: #eee;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 20px;
+    }
+    footer img{
+        width: 50px;
+        margin: 20px;
+    }
+    footer p{
+        font-size: 20px;
+        color: var(--DarkGrayishBlue);
+    }
+    .foot-icon i{
+        margin: 30px 10px;
+        font-size: 30px;
+        text-align: center;
+        
     }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
